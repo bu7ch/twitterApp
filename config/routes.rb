@@ -1,5 +1,7 @@
 TwitterApp::Application.routes.draw do
 
+  resources :raillers
+
   get "sessions/new"
   post "sessions/create"
   get "sessions/destroy"
